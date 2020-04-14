@@ -8,6 +8,7 @@ import { Router } from "@angular/router";
   styleUrls: ["./content.component.scss"],
 })
 export class ContentComponent implements OnInit {
+  [x: string]: any;
   constructor(privaterouter: Router) {}
 
   ngOnInit(): void {
